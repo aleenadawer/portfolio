@@ -68,6 +68,29 @@ nav a:hover::after{width:100%}
 .feature-main:hover .img-label,
 .feature-side-item:hover .img-label{opacity:1}
 
+  <div class="gallery">
+  <img src="images/fieldwork/Fieldwork photo 2.jpg" alt="Fieldwork photo 2">
+  <img src="images/fieldwork/Fieldwork photo 3.jpg" alt="Fieldwork photo 3">
+  <img src="images/fieldwork/Fieldwork photo 4.jpg" alt="Fieldwork photo 4">
+  <img src="images/fieldwork/Fieldwork photo 5.jpg" alt="Fieldwork photo 4">
+  <img src="images/fieldwork/Fieldwork photo 6.jpeg" alt="Fieldwork photo 6">
+  <img src="images/fieldwork/Fieldwork photo 7.jpg" alt="Fieldwork photo 7">
+  <img src="images/fieldwork/Fieldwork photo 8.jpg" alt="Fieldwork photo 8">
+</div>
+  .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+
 /* Paintings placeholder */
 .paintings-placeholder{border:1px dashed rgba(184,147,42,.4);padding:4rem 3rem;text-align:center;background:rgba(184,147,42,.02)}
 .paintings-placeholder h3{font-size:1.6rem;font-weight:300;margin-bottom:1rem;font-style:italic;color:var(--ink2)}
