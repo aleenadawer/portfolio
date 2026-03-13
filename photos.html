@@ -59,7 +59,7 @@ nav a:hover::after{width:100%}
 .feature-main{position:relative;overflow:hidden;height:480px}
 .feature-main img{width:100%;height:100%;object-fit:cover;filter:saturate(0.88);transition:transform .5s,filter .4s}
   .feature-main:first-child img { transform: rotate(90deg); }
-.feature-main:hover img{transform:scale(1.03);filter:saturate(1.05)}
+.feature-main:hover img { transform:rotate(90deg) scale(1.03); filter:saturate(1.05) }
 .feature-side{display:flex;flex-direction:column;gap:1.2rem}
 .feature-side-item{flex:1;position:relative;overflow:hidden}
 .feature-side-item img{width:100%;height:100%;object-fit:cover;filter:saturate(0.88);transition:transform .5s,filter .4s;display:block}
